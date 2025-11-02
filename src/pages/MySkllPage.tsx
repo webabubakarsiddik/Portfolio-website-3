@@ -1,4 +1,4 @@
-import MySkill from "@/components/Lyout/MySkll";
+import MySkill from "@/components/modules/MySkll";
 
 function MySkillPage() {
     return ( 

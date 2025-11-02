@@ -1,9 +1,9 @@
-import About from "@/components/Lyout/About";
-import Contact from "@/components/Lyout/Contact";
-import Home from "@/components/Lyout/Home";
-import MySkill from "@/components/Lyout/MySkll";
-import Project from "@/components/Lyout/Project";
-import Services from "@/components/Lyout/Servece";
+import About from "@/components/modules/About";
+import Contact from "@/components/modules/Contact";
+import Home from "@/components/modules/Home";
+import MySkill from "@/components/modules/MySkll";
+import Project from "@/components/modules/Project";
+import Services from "@/components/modules/Servece";
 
 function HomePage() {
     return ( 

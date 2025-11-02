@@ -1,5 +1,6 @@
 
 import { FaArrowUp } from "react-icons/fa";
+import { Link } from "react-router";
 
 function Contact() {
   return (
@@ -20,7 +21,7 @@ function Contact() {
           <ul className="space-y-3 mb-6 text-sm sm:text-base">
             <li className="flex items-center gap-2">
               <i className="bx bxs-send bg-gradient-to-r  from-[#36cc95] to-[#FF7E5F] bg-clip-text text-transparent text-xl"></i>
-              <span className="bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">contact@email.com</span>
+              <span className="bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">mr.siddikdev@gmail.com</span>
             </li>
             <li className="flex items-center gap-2">
               <i className="bx bxs-phone bg-gradient-to-r  from-[#36b79b] to-[#FF7E5F]/70 bg-clip-text text-transparent text-xl"></i>
@@ -29,16 +30,24 @@ function Contact() {
           </ul>
 
           <div className="contact-icons flex gap-4 text-2xl">
-            {["facebook-circle", "twitter", "instagram", "linkedin", "github"].map((icon) => (
-              <a
-                key={icon}
-                href="#"
-                className=" bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent transition-colors"
-              >
-                <i className={`bx bxl-${icon}`}></i>
-              </a>
-            ))}
-          </div>
+              {[
+                { icon: "facebook-circle", link: "https://facebook.com/yourprofile" },
+                { icon: "twitter", link: "https://twitter.com/yourprofile" },
+                { icon: "instagram", link: "https://instagram.com/yourprofile" },
+                { icon: "linkedin", link: "https://linkedin.com/in/yourprofile" },
+                { icon: "github", link: "https://github.com/webabubakarsiddik" },
+              ].map(({ icon, link }) => (
+                <Link
+                  key={icon}
+                  to={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent transition-all duration-300 hover:scale-110"
+                >
+                  <i className={`bx bxl-${icon}`}></i>
+                </Link>
+              ))}
+        </div>
         </div>
 
         {/* === Right Side: Contact Form === */}
@@ -79,13 +88,13 @@ function Contact() {
       
 
       {/* Back to Top Button */}
-      <a
-        href="#top"
+      <Link
+        to="#top"
         className="fixed bottom-6 right-6 p-3 rounded-full shadow-lg bg-gradient-to-r from-[#8783dd] to-[#FF7E5F]/70 hover:bg-blue-300 transition z-50"
       >
         <FaArrowUp className="bx bx-up-arrow-alt text-2xl bg-gradient-to-r from-[#8783dd] to-[#FF7E5F]/70"></FaArrowUp>
 
-      </a>
+      </Link>
     </section>
   );
 }

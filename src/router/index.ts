@@ -1,4 +1,5 @@
-import App from "@/App";
+
+import App from "@/components/Lyout/App";
 import AboutPage from "@/pages/AbuotPage";
 import ContactPage from "@/pages/ContactPage";
 import HomePage from "@/pages/HomePage";

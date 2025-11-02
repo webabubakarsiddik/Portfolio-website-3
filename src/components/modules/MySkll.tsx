@@ -1,6 +1,4 @@
-
-
-
+import Banner2 from "@/components/modules/Banner";
 
 const techSkills = [
   { icon: "bx bxl-html5", color: "rgb(105, 36, 6)", name: "HTML" },
@@ -8,31 +6,6 @@ const techSkills = [
   { icon: "bx bxl-javascript", color: "darkgoldenrod", name: "Javascript" },
   { icon: "bx bxl-python", color: "rgb(175, 52, 151)", name: "Python" },
   { icon: "bx bxl-react", color: "rgb(54, 138, 191)", name: "React" },
-];
-
-const logos = [
-  { src: "/IMG-20250913-WA0005.jpg", label: "Tailwind" },
-  { src: "/IMG-20250913-WA0001.jpg", label: "Bootstrap" },
-  { src: "/IMG-20250913-WA0004.jpg", label: "HTML" },
-  { src: "/IMG-20250913-WA0006.jpg", label: "JavaScript" },
-  { src: "/IMG-20250913-WA0010.jpg", label: "React" },
-  { src: "/IMG-20250913-WA0009.jpg", label: "Node.js" },
-  { src: "/IMG-20250913-WA0007.jpg", label: "jQuery" },
-  { src: "/IMG-20250913-WA0003.jpg", label: "CSS" },
-  { src: "/IMG-20250913-WA0008.jpg", label: "MySQL" },
-  { src: "/IMG-20250913-WA0002.jpg", label: "API" },
-  { src: "/IMG-20250913-WA0011.jpg", label: "Sass" },
-  { src: "/IMG-20250913-WA0005.jpg", label: "Tailwind" },
-  { src: "/IMG-20250913-WA0001.jpg", label: "Bootstrap" },
-  { src: "/IMG-20250913-WA0004.jpg", label: "HTML" },
-  { src: "/IMG-20250913-WA0006.jpg", label: "JavaScript" },
-  { src: "/IMG-20250913-WA0010.jpg", label: "React" },
-  { src: "/IMG-20250913-WA0009.jpg", label: "Node.js" },
-  { src: "/IMG-20250913-WA0007.jpg", label: "jQuery" },
-  { src: "/IMG-20250913-WA0003.jpg", label: "CSS" },
-  { src: "/IMG-20250913-WA0008.jpg", label: "MySQL" },
-  { src: "/IMG-20250913-WA0002.jpg", label: "API" },
-  { src: "/IMG-20250913-WA0011.jpg", label: "Sass" },
 ];
 
 export default function MySkill() {
@@ -77,28 +50,68 @@ export default function MySkill() {
             ))}
           </div>
         </div>
-      </div>
+      </div>   
+      <Banner2
+  items={[
+    {
+      image: "/IMG-20250913-WA0004.jpg",
+      text: "HTML",
+      link: "https://www.w3schools.com/html/",
+    },
+    {
+      image: "/IMG-20250913-WA0003.jpg",
+      text: "CSS",
+      link: "https://www.w3schools.com/css/",
+    },
+     {
+      image: "/IMG-20250913-WA0006.jpg",
+      text: "JavaScript",
+      link: "https://www.w3schools.com/js/js_intro.asp",
+    },
+    {
+      image: "/IMG-20250913-WA0001.jpg",
+      text: "Bootstrap",
+      link: "https://getbootstrap.com/",
+    },
+    {
+      image: "/IMG-20250913-WA0005.jpg",
+      text: "Tailwind",
+      link: "https://tailwindcss.com/",
+    },
+    {
+      image: "/IMG-20250913-WA0010.jpg",
+      text: "React",
+      link: "https://react.dev/",
+    },
+    {
+      image: "/IMG-20250913-WA0009.jpg",
+      text: "Node.js",
+      link: "https://nodejs.org/en",
+    },
+    {
+      image: "/IMG-20250913-WA0007.jpg",
+      text: "jQuery",
+      link: "https://jquery.com/",
+    },
+    
+    {
+      image: "/IMG-20250913-WA0008.jpg",
+      text: "MySQL",
+      link: "https://www.mysql.com/",
+    },
+    {
+      image: "/IMG-20250913-WA0002.jpg",
+      text: "API",
+      link: "https://www.api.org/",
+    },
+    {
+      image: "/IMG-20250913-WA0011.jpg",
+      text: "https://sass-lang.com/",
+      link: "/skills/sass",
+    },
+  ]}
+/>
 
-      {/* === Horizontal Logo/Skill Slider === */}
-      <div className="overflow-x-auto mt-16">
-        <div className="slider py-30 gap-2">
-          {logos.concat(logos).map((item, i) => (
-            <div
-              key={i}
-              className="flex-shrink-0 flex flex-col items-center bg-gray-600 text-amber-50
-                         rounded-xl p-3 shadow-lg w-[150px] h-[150px]
-                         hover:scale-105 hover:saturate-150 transition bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70"
-            >
-              <img
-                src={item.src}
-                alt={item.label}
-                className="w-16 h-16 object-contain rounded-3xl"
-              />
-              <p className="py-3 font-bold text-xl">{item.label}</p>
-            </div>
-          ))}
-        </div>
-      </div>
     </section>
   );
 }

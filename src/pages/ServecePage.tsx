@@ -1,4 +1,4 @@
-import Services from "@/components/Lyout/Servece";
+import Services from "@/components/modules/Servece";
 
 function ServicesPage() {
     return ( 

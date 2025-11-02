@@ -1,4 +1,4 @@
-import Project from "@/components/Lyout/Project";
+import Project from "@/components/modules/Project";
 
 function ProjectPage() {
     return ( 

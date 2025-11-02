@@ -1,4 +1,4 @@
-import About from "@/components/Lyout/About";
+import About from "@/components/modules/About";
 
 function AboutPage() {
     return ( 

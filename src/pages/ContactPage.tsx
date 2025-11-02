@@ -1,4 +1,4 @@
-import Contact from "@/components/Lyout/Contact";
+import Contact from "@/components/modules/Contact";
 
 function ContactPage() {
     return ( 

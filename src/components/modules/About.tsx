@@ -1,13 +1,13 @@
+import { Link } from "react-router";
 
 
 function About() {
 
   return (
-    <section
-      id="about"
-      className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-10 md:gap-20 mt-30 mb-22 px-5 md:px-16"
-    >
-      {/* Image */}
+    <section>
+      <div id="about"
+      className="flex flex-col-reverse md:flex-row items-center justify-center w-full gap-10 md:gap-20 mt-30 mb-22 px-5 md:px-16">
+          {/* Image */}
       <div className="about-img mb-8 md:mb-0">
         <img
           src="/Abu bakar.jpg"
@@ -30,19 +30,24 @@ function About() {
           non ratione! Et maxime provident eligendi nemo recusandae magnam adipisci
           sit corrupti mollitia ratione, cumque a blanditiis cum aspernatur dolorum.
           deleniti...
-         
 
-          <a
-          href="#contact"
-          className="btn-box inline-block px-6 py-3 bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70  font-semibold rounded-lg transition"
-        >
-          <span className="text-black">More About Me</span>
-          
-        </a>
         </p>
          
-       
       </div>
+      </div>
+    
+      <div className="flex justify-center w-full mt-4 relative">
+        <span className="w-64 h-1 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out-900 absolute top-5 left-86"></span>
+        <span className="w-64 h-1 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out absolute top-5 right-86"></span>
+       
+      <Link
+        to="#contact"
+        className="btn-box inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out"
+      >
+        More About Me
+      </Link>
+    </div>
+
     </section>
   );
 }

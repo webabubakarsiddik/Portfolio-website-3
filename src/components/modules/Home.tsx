@@ -1,8 +1,9 @@
-import HeroTitle from '@/components/Lyout/HeroTitle';
+import HeroTitle from '@/components/modules/HeroTitle';
 import { PiFacebookLogoFill } from "react-icons/pi";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { PiWhatsappLogoFill } from "react-icons/pi";
 import { PiTiktokLogoFill } from "react-icons/pi";
+import { Link } from 'react-router';
 
 function Home() {
   return (
@@ -25,16 +26,33 @@ function Home() {
           </p>
 
           {/* Social Icons */}
-          <div className="home-scl flex gap-7 mt-2 mb-2 text-1xl ">
+          <div className="home-scl flex gap-7 mt-2 mb-8 text-1xl ">
+            <Link to={"https://www.facebook.com/"}>
             <PiFacebookLogoFill className=" bx bxl-facebook text-blue-500" />
+            </Link>
+            <Link to={"https://www.instagram.com/"}>
             <PiInstagramLogoFill className="bx bxl-instagram text-pink-500" />
+            </Link>
+            <Link to={"https://www.whatsapp.com/"}>
             <PiWhatsappLogoFill  className="bx bxl-whatsapp text-green-500" />
-            <PiTiktokLogoFill className="bx bxl-tiktok text-purple-400" />
+            </Link>
+            <Link to={"https://www.tiktok.com/en/"}>
+             <PiTiktokLogoFill className="bx bxl-tiktok text-purple-400" />
+            </Link>
+            
           </div>
-          <a href="#" className="btn-box mt-4 bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70">
+         <div className="relative">
+           
+            <span className=" w-75 h-1 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out absolute top-5 left-47"></span>
+          
+          <Link
+            to="#contact"
+            className="btn-box inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out"
+          >
             More About Me
-          </a>
+          </Link>
         </div>
+      </div>
 
         {/* Right Image */}
         <div className="home-imgHover p-[6px] rounded-full">
