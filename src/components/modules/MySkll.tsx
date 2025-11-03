@@ -106,8 +106,8 @@ export default function MySkill() {
     },
     {
       image: "/IMG-20250913-WA0011.jpg",
-      text: "https://sass-lang.com/",
-      link: "/skills/sass",
+      text: "sass",
+      link: "https://sass-lang.com/",
     },
   ]}
 />
