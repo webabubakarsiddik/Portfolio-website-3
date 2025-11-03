@@ -1,7 +1,6 @@
 
 import App from "@/components/Lyout/App";
 import AboutPage from "@/pages/AbuotPage";
-import ContactPage from "@/pages/ContactPage";
 import HomePage from "@/pages/HomePage";
 import MySkillPage from "@/pages/MySkllPage";
 import ProjectPage from "@/pages/ProjectPage";
@@ -34,10 +33,6 @@ import { createBrowserRouter } from "react-router";
           {
             path: "/project",
             Component:ProjectPage
-        },
-           {
-            path: "/Contact",
-            Component:ContactPage
         },
     ]
   },

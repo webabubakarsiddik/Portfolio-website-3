@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 
 function Home() {
   return (
-    <div>
+  <div>
       {/* === HOME SECTION === */}
       <section
         id="home"
@@ -38,20 +38,23 @@ function Home() {
             </Link>
             <Link to={"https://www.tiktok.com/en/"}>
              <PiTiktokLogoFill className="bx bxl-tiktok text-purple-400" />
-            </Link>
-            
-          </div>
-         <div className="relative">
-           
-            <span className=" w-75 h-1 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out absolute top-5 left-47"></span>
-          
-          <Link
-            to="#contact"
-            className="btn-box inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-3 transition-transform duration-500 ease-in-out"
-          >
-            More About Me
-          </Link>
-        </div>
+            </Link> 
+      </div>
+    <div className="relative flex flex-col items-center justify-center w-full mt-10 mb-10">
+      {/* Decorative Gradient Lines */}
+      <div className="hidden md:flex justify-between w-full max-w-3xl absolute top-1/2 -translate-y-1/2">
+        <span className="w-1/3 h-1 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 rounded-lg shadow-md hover:opacity-90 hover:scale-105 transition-transform duration-500 ease-in-out"></span>
+        <span className="w-1/3 h-1 bg-gradient-to-l from-[#6a64dc] to-[#FF7E5F]/70 rounded-lg shadow-md hover:opacity-90 hover:scale-105 transition-transform duration-500 ease-in-out"></span>
+      </div>
+
+      {/* Center Button */}
+      <Link
+        to="#contact"
+        className="btn-box relative z-10 inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1 transition-transform duration-500 ease-in-out"
+      >
+        More About Me
+      </Link>
+    </div>
       </div>
 
         {/* Right Image */}

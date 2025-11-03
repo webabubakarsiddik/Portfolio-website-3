@@ -1,5 +1,4 @@
 import About from "@/components/modules/About";
-import Contact from "@/components/modules/Contact";
 import Home from "@/components/modules/Home";
 import MySkill from "@/components/modules/MySkll";
 import Project from "@/components/modules/Project";
@@ -13,7 +12,6 @@ function HomePage() {
      <Services/>
      <MySkill />
      <Project/>
-     <Contact/>
      </> 
      );
 }
