@@ -23,13 +23,13 @@ function Services() {
   ];
 
   return (
-    <section id="services" className="mt-24 w-full">
+    <section id="services" className="pt-24 w-full bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">
           My <span className="">Services</span>
         </h1>
 
-        {/* Responsive grid */}
+        {/* Responsive grid */} 
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {servicesData.map((service, index) => (
             <div

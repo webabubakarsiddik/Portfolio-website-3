@@ -306,16 +306,12 @@
  #services{
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4rem;
 }
 .sub-title {
     text-align: center;
     font-size: 60px;
     padding-bottom:  70px;
 }
-/* .sub-title span {
-    color:  rgb(208, 155, 9);
-} */
 
 
 .services-list div{
@@ -343,7 +339,6 @@
 }
 .services-list div a{
     text-decoration: none;
-    /* color: #081b29; */
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -539,17 +534,14 @@
     margin: 15px 0;
     font-size: 20px;
     font-weight: 600;
-    /* margin-left: 20px; */
 }
 .contact-text p {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
-    /* margin-left: 20px; */
 }
 .contact-list {
     margin-bottom: 3rem;
-    /* margin-left: 20px; */
 }
 .contact-list li {
     margin-bottom: 10px;
@@ -575,9 +567,7 @@
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
-    /* margin: 30px 15px 30px 0; */
     transition: .5s ease;
-    /* margin-left: 20px; */
 }
 .contact-icons i:hover {
     background: rgb(206, 175, 227);
@@ -598,7 +588,6 @@
     font-weight: 600;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
-    /* margin-left: 20px; */
 }
 .contact-form textarea {
     resize: none;

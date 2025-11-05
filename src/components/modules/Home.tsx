@@ -1,8 +1,7 @@
 import HeroTitle from '@/components/modules/HeroTitle';
-import { PiFacebookLogoFill } from "react-icons/pi";
+import { PiFacebookLogoFill, PiLinkedinLogoFill } from "react-icons/pi";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { PiWhatsappLogoFill } from "react-icons/pi";
-import { PiTiktokLogoFill } from "react-icons/pi";
 import { Link } from 'react-router';
 
 function Home() {
@@ -11,7 +10,7 @@ function Home() {
       {/* === HOME SECTION === */}
       <section
         id="home"
-        className="flex flex-col md:flex-row items-center justify-center w-full gap-10 md:gap-30 mt-30 px-5 md:px-16"
+        className="bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex flex-col md:flex-row items-center justify-center w-full gap-10 md:gap-30 pt-30 px-5 md:px-16"
       >   
         {/* Left Content */}
         <div className="home-content max-w-xl ">
@@ -36,8 +35,8 @@ function Home() {
             <Link to={"https://www.whatsapp.com/"}>
             <PiWhatsappLogoFill  className="bx bxl-whatsapp text-green-500" />
             </Link>
-            <Link to={"https://www.tiktok.com/en/"}>
-             <PiTiktokLogoFill className="bx bxl-tiktok text-purple-400" />
+            <Link to={"https://www.linkedin.com/feed/"}>
+             <PiLinkedinLogoFill className="bx bxl-linkedin text-blue-300" />
             </Link> 
       </div>
     <div className="relative flex flex-col items-center justify-center w-full mt-10 mb-10">

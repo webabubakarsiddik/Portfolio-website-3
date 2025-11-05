@@ -11,7 +11,7 @@ const techSkills = [
 export default function MySkill() {
   return (
     
-    <section className="w-full px-4 md:px-8 lg:px-12 mb-27 mt-30">
+    <section className="w-full px-4 md:px-8 lg:px-12 pb-27 pt-30 bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
         <h1 className="sub-title bg-gradient-to-r from-[#140e70] to-[#FF7E5F]/70 bg-clip-text text-transparent">My<span>Skills</span></h1>
       <div className="section flex flex-col lg:flex-row gap-10">
 

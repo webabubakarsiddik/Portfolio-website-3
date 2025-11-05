@@ -24,7 +24,7 @@ const projects = [
 
 function Project() {
   return (
-    <section id="portfolio" className="mt-30 mb-27 lg:px-12 w-full">
+    <section id="portfolio" className="pt-30 pb-27 lg:px-12 w-full bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold bg-gradient-to-r from-[#36cc95] to-[#FF7E5F] bg-clip-text text-transparent">
           Latest <span className="">Projects</span>

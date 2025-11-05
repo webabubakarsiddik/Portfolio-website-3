@@ -1,6 +1,7 @@
 
 import App from "@/components/Lyout/App";
 import AboutPage from "@/pages/AbuotPage";
+import { Contact7 } from "@/pages/contactPage";
 import HomePage from "@/pages/HomePage";
 import MySkillPage from "@/pages/MySkllPage";
 import ProjectPage from "@/pages/ProjectPage";
@@ -15,7 +16,7 @@ import { createBrowserRouter } from "react-router";
     Component: App,
     children: [
         {
-            path: "/",
+            index:true,
             Component:HomePage
         },
         {
@@ -33,6 +34,10 @@ import { createBrowserRouter } from "react-router";
           {
             path: "/project",
             Component:ProjectPage
+        },
+         {
+            path: "/project7",
+            Component: Contact7
         },
     ]
   },

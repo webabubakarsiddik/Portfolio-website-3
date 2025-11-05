@@ -46,7 +46,7 @@ export default function Header() {
             <Link to={"services"} className="px-3 py-2 hover:underline">Services</Link>
             <Link to={"myskill"} className="px-3 py-2 hover:underline">Skill</Link>
             <Link to={"project"} className="px-3 py-2 hover:underline">Project</Link>
-            <Link to={"contact"} className="px-3 py-2 hover:underline">Contact</Link>
+            <Link to={"project7"} className="px-3 py-2 hover:underline">Contact</Link>
           </nav>
         </ul>
 
@@ -61,12 +61,12 @@ export default function Header() {
           </button>
 
           {/* Contact button (desktop) */}
-          <a
-            href="#contact"
+          <Link
+            to="contact"
             className="hidden lg:inline-flex items-center gap-3 px-5 py-2.5 border border-gray-500 rounded-full hover:bg-emerald-700 transition text-black dark:text-white"
           >
             যোগাযোগ করুন
-          </a>
+          </Link>
 
           {/* Mobile menu button */}
           <button
@@ -110,15 +110,15 @@ export default function Header() {
           <Link to={"services"} onClick={() => setMenuOpen(false)} className="block">Services</Link>
           <Link to={"myskill"} onClick={() => setMenuOpen(false)} className="block">Skill</Link>
           <Link to={"project"} onClick={() => setMenuOpen(false)} className="block">Project</Link>
-          <Link to={"contact"} onClick={() => setMenuOpen(false)} className="block">Contact</Link>
+          <Link to={"project7"} onClick={() => setMenuOpen(false)} className="block">Contact</Link>
 
-          <a
-            href="#contact"
+          <Link
+            to="contact"
             className="mt-4 px-5 py-3 bg-emerald-600 text-white rounded-2xl text-center hover:bg-emerald-700 transition"
             onClick={() => setMenuOpen(false)}
           >
             যোগাযোগ করুন
-          </a>
+          </Link>
         </div>
       </div>
 
