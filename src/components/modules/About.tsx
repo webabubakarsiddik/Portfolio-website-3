@@ -7,16 +7,16 @@ function About() {
     <section>
       <div
       id="about"
-      className="bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex flex-col-reverse md:flex-row items-center justify-center w-full gap-10 md:gap-20 pt-20 pb-20 px-6 md:px-16 scroll-mt-20"
+      className="bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex flex-col-reverse md:flex-row items-center justify-center w-full gap-10 md:gap-20 pt-25 pb-20 px-6 md:px-16 scroll-mt-20"
     >
       {/* Image Section */}
-      <div className="about-img flex justify-center mb-8 md:mb-0">
-        <img
-          src="/Abu bakar.jpg"
-          alt="Portrait of Abu Bakar"
-          className="w-80 h-80 sm:w-80 sm:h-80 md:w-96 md:h-96 border-10 border-t-blue-900 border-b-blue-900 border-l-cyan-700 border-r-cyan-700 rounded-full object-cover shadow-xl transition-transform duration-500 hover:scale-105"
-        />
-      </div>
+           <div className="home-imgHover p-[6px] rounded-full">
+          <img
+            src="/Abu bakar.jpg"
+            alt="Abu Bakar"
+            className="w-[400px] h-[400px]  border-15  rounded-full object-cover  border-animate"
+          />
+        </div>
 
       {/* Text Section */}
       <div className="about-text text-center md:text-left max-w-2xl">
@@ -24,27 +24,26 @@ function About() {
           About <span className="text-transparent">Me</span>
         </h2>
 
-        <h4 className="text-xl md:text-2xl font-semibold mb-6 bg-gradient-to-r from-[#100c57] to-[#FF7E5F]/70 bg-clip-text text-transparent">
+        <h4 className="text-xl md:text-2xl font-semibold mb-3 bg-gradient-to-r from-[#100c57] to-[#FF7E5F]/70 bg-clip-text text-transparent">
           Full Stack Developer
         </h4>
-
-        <div className="space-y-4 leading-relaxed text-base md:text-lg bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">
-          <p>
-            I’m a passionate Full Stack Developer who loves crafting clean,
-            responsive, and interactive user interfaces using modern web
-            technologies like React, Next.js, and Tailwind CSS.
-          </p>
-          <p>
-            My goal is to turn creative ideas into real-world digital
-            experiences that are fast, accessible, and visually engaging. I
-            enjoy solving problems through code and continuously learning new
-            tools to stay ahead in the evolving world of frontend development.
-          </p>
-          <p>
-            When I’m not coding, I love exploring UI/UX trends, contributing to
-            open-source projects, and building side projects that push my
-            creativity further.
-          </p>
+        <div className="space-y-3 px-4 sm:px-6 sm:py-8 md:px-12 md:py-10 leading-relaxed text-xs sm:text-sm md:text-base bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent text-left">
+            <p>
+              I’m a passionate Full Stack Developer who loves crafting clean,
+              responsive, and interactive user interfaces using modern web
+              technologies like React, Next.js, and Tailwind CSS.
+            </p>
+            <p>
+              My goal is to turn creative ideas into real-world digital
+              experiences that are fast, accessible, and visually engaging. I
+              enjoy solving problems through code and continuously learning new
+              tools to stay ahead in the evolving world of frontend development.
+            </p>
+            <p>
+              When I’m not coding, I love exploring UI/UX trends, contributing to
+              open-source projects, and building side projects that push my
+              creativity further.
+            </p>
         </div>
       </div>
     </div>
