@@ -111,10 +111,8 @@ export default function Header() {
           <Link to={"myskill"} onClick={() => setMenuOpen(false)} className="block">Skill</Link>
           <Link to={"project"} onClick={() => setMenuOpen(false)} className="block">Project</Link>
           <Link to={"project7"} onClick={() => setMenuOpen(false)} className="block">Contact</Link>
-
           <Link
             to="https://github.com/webabubakarsiddik"
-            className="bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 font-semibold shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1  duration-500 ease-in-out     hidden lg:inline-flex items-center gap-3 px-5 py-2.5 border border-gray-500 rounded-full hover:bg-emerald-700 transition text-black dark:text-white"
             onClick={() => setMenuOpen(false)}
           >
              Github Profile

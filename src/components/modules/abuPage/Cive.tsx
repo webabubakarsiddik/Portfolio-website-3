@@ -6,7 +6,7 @@ function Cive() {
   return (
 
     
-    <div className="max-w-4xl  mx-auto p-25 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-xl rounded-xl space-y-10 font-sans">
+    <div className="max-w-9xl  mx-auto p-25 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-xl rounded-xl space-y-10 font-sans">
             < Resume/>
       {/* Header */}
       <header className="text-center space-y-3">
