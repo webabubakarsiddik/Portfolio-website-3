@@ -46,7 +46,7 @@ export default function Header() {
             <Link to={"services"} className="px-3 py-2 hover:underline">Services</Link>
             <Link to={"myskill"} className="px-3 py-2 hover:underline">Skill</Link>
             <Link to={"project"} className="px-3 py-2 hover:underline">Project</Link>
-            <Link to={""} className="px-3 py-2 hover:underline">Contact</Link>
+            <Link to={"project7"} className="px-3 py-2 hover:underline">Contact</Link>
           </nav>
         </ul>
 
