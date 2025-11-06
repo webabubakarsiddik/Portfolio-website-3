@@ -27,7 +27,7 @@ function About() {
         <h4 className="text-xl md:text-2xl font-semibold mb-3 bg-gradient-to-r from-[#100c57] to-[#FF7E5F]/70 bg-clip-text text-transparent">
           Full Stack Developer
         </h4>
-        <div className="space-y-3 px-4 sm:px-6 sm:py-8 md:px-12 md:py-10 leading-relaxed text-xs sm:text-sm md:text-base bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent text-left">
+        <div className="space-y-4 sm:space-y-5 text-[13px] sm:text-sm md:text-base leading-relaxed text-justify  bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">
             <p>
               I’m a passionate Full Stack Developer who loves crafting clean,
               responsive, and interactive user interfaces using modern web
@@ -57,7 +57,7 @@ function About() {
 
       {/* Center Button */}
       <Link
-        to="#contact"
+        to="Blog7Page"
         className="btn-box relative z-10 inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1 transition-transform duration-500 ease-in-out"
       >
         More About Me

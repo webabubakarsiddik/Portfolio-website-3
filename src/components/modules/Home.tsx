@@ -48,10 +48,10 @@ function Home() {
 
       {/* Center Button */}
       <Link
-        to="#contact"
+        to="/CivePage"
         className="btn-box relative z-10 inline-block px-8 py-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 text-black font-semibold rounded-lg shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1 transition-transform duration-500 ease-in-out"
       >
-        More About Me
+        Check Resume
       </Link>
     </div>
       </div>

@@ -5,19 +5,19 @@ const projects = [
   {
     img: "/img5.png",
     title: "Online Library",
-    desc: "A responsive online library web app built with Next.js and Tailwind CSS for a smooth digital reading experience.",
+    desc: "A responsive Online Library Website created with HTML, CSS, and JavaScript. This project focuses on a smooth user experience, clean design, and easy book browsing — perfect for readers who love digital libraries.",
     link: "https://online-library-navy.vercel.app/",
   },
   {
     img: "/img1.png",
     title: "Modern Blog Site",
-    desc: "A dynamic and SEO-optimized blog platform where users can explore articles and share ideas interactively.",
+    desc: "A fully responsive Blog Platform built with React.js and Tailwind CSS, designed for seamless user interaction and modern UI. It allows users to explore, read, and share insightful articles with smooth navigation and a visually appealing layout.",
     link: "https://blog-site-f7ef.vercel.app/",
   },
   {
     img: "/img4.png",
-    title: "Creative Portfolio",
-    desc: "A fully responsive portfolio template designed to highlight creativity, animations, and clean design aesthetics.",
+    title: "Business Website",
+    desc: "A fully responsive Business Website built with Next.js and Tailwind CSS, designed to showcase professional services with modern animations, elegant layouts, and smooth user experience.",
     link: "https://papaya-dolphin-ea9e9b.netlify.app/",
   },
 ];

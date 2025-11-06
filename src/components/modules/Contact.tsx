@@ -2,6 +2,7 @@
 import { FaArrowUp } from "react-icons/fa";
 import { Link } from "react-router";
 
+
 function Contact() {
   return (
     <section id="contact" className="pt-30 px-6 lg:px-12 w-full relative bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
@@ -13,9 +14,9 @@ function Contact() {
           </h2>
           <h4 className="text-xl sm:text-lg mb-4 bg-gradient-to-r  from-[#726fa8] to-[#FF7E5F]/70 bg-clip-text text-transparent">Let's Work Together</h4>
           <p className=" mb-6 text-sm sm:text-base bg-gradient-to-r  from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
-            aliquam magnam iste repudiandae dignissimos quae ullam esse rem
-            voluptate odit commodi ducimus, inventore tenetur rerum!
+              I’m always open to discussing new projects, creative ideas, or
+               opportunities to collaborate. Whether you have a question, a job offer,
+              or just want to say hi — feel free to reach out!  
           </p>
 
           <ul className="space-y-3 mb-6 text-sm sm:text-base">

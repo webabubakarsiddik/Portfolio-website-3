@@ -46,7 +46,7 @@ export default function Header() {
             <Link to={"services"} className="px-3 py-2 hover:underline">Services</Link>
             <Link to={"myskill"} className="px-3 py-2 hover:underline">Skill</Link>
             <Link to={"project"} className="px-3 py-2 hover:underline">Project</Link>
-            <Link to={"project7"} className="px-3 py-2 hover:underline">Contact</Link>
+            <Link to={""} className="px-3 py-2 hover:underline">Contact</Link>
           </nav>
         </ul>
 
@@ -62,10 +62,10 @@ export default function Header() {
 
           {/* Contact button (desktop) */}
           <Link
-            to="contact"
-            className="hidden lg:inline-flex items-center gap-3 px-5 py-2.5 border border-gray-500 rounded-full hover:bg-emerald-700 transition text-black dark:text-white"
+            to="https://github.com/webabubakarsiddik"
+            className="bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 font-semibold shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1  duration-500 ease-in-out     hidden lg:inline-flex items-center gap-3 px-5 py-2.5 border border-gray-500 rounded-full hover:bg-emerald-700 transition text-black dark:text-white"
           >
-            যোগাযোগ করুন
+            Github Profile
           </Link>
 
           {/* Mobile menu button */}
@@ -113,11 +113,11 @@ export default function Header() {
           <Link to={"project7"} onClick={() => setMenuOpen(false)} className="block">Contact</Link>
 
           <Link
-            to="contact"
-            className="mt-4 px-5 py-3 bg-emerald-600 text-white rounded-2xl text-center hover:bg-emerald-700 transition"
+            to="https://github.com/webabubakarsiddik"
+            className="bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 font-semibold shadow-md hover:opacity-90 hover:scale-105 hover:rotate-1  duration-500 ease-in-out     hidden lg:inline-flex items-center gap-3 px-5 py-2.5 border border-gray-500 rounded-full hover:bg-emerald-700 transition text-black dark:text-white"
             onClick={() => setMenuOpen(false)}
           >
-            যোগাযোগ করুন
+             Github Profile
           </Link>
         </div>
       </div>
