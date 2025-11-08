@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 function Contact() {
   return (
-    <section id="contact" className="pt-30 px-6 lg:px-12 w-full relative bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <section id="contact" className="pt-20 px-6 lg:px-12 w-full relative bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-6xl mx-auto grid sm:grid-cols-1 md:grid-cols-2 gap-12">
         {/* === Left Side === */}
         <div>

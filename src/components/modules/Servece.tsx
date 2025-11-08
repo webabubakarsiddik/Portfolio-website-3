@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router"; 
 
 
 function Services() {
@@ -29,35 +29,61 @@ function Services() {
   return (
     <section
       id="services"
-      className="pt-26 w-full bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"
+      className="
+        pt-16 pb-20 md:pt-28 w-full 
+        bg-gradient-to-r from-purple-50 via-pink-50 to-orange-50 
+        dark:from-gray-900 dark:via-gray-800 dark:to-gray-900
+      "
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-6xl md:text-4xl sm:text-1xl font-bold text-center mb-20 mt-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70 bg-clip-text text-transparent">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        <h1 className="
+          text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-12 
+          bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F] bg-clip-text text-transparent
+        ">
           My Services
         </h1>
 
-        {/* Responsive grid */}
-        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           {servicesData.map((service, index) => (
             <div
               key={index}
-              className="p-6 border rounded-xl shadow hover:shadow-lg transition duration-300 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F]/70"
+              className="
+                p-6 rounded-xl shadow-lg 
+                hover:shadow-2xl hover:scale-[1.02] transition duration-500 
+                bg-white dark:bg-gray-800 border border-transparent 
+                hover:border-indigo-400 dark:hover:border-pink-400
+              "
             >
+              
               <i
-                className={`${service.icon} text-5xl mb-4`}
-                style={{ color: "darkgoldenrod" }}
+                className={`${service.icon} text-5xl mb-4 
+                  text-indigo-600 dark:text-pink-400 
+                  block mx-auto sm:mx-0`} 
               ></i>
-              <h2 className="text-xl font-semibold mb-3 text-black">
+              
+              
+              <h2 className="text-xl md:text-2xl font-bold mb-3 bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F] bg-clip-text text-transparent">
                 {service.title}
               </h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              
+           
+              <p className="bg-gradient-to-r from-[#6a64dc] to-[#FF7E5F] bg-clip-text text-transparent dark:text-gray-400 mb-4 leading-relaxed text-sm md:text-base">
                 {service.description}
               </p>
+              
+             
               <Link
                 to={service.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-box inline-block font-medium bg-gradient-to-r from-[#FF7E5F] to-[#6a64dc]/70 px-4 py-2 rounded text-white"
+                className="
+                  btn-box inline-block font-medium px-5 py-2 
+                  rounded-lg shadow-md 
+                  bg-gradient-to-r from-[#FF7E5F] to-[#6a64dc] 
+                  text-white hover:opacity-90 transition duration-300
+                "
               >
                 Learn More
               </Link>
