@@ -66,6 +66,8 @@ export default function MySkill() {
             /* Ensures text/percentage also fades in with animation */
             opacity: 0; 
             animation: showText 0.5s 1.5s linear forwards;
+            margin-bottom: 9rem;
+
         }
         `}
       </style>
@@ -182,11 +184,11 @@ export default function MySkill() {
                 {/* Skill Name (Fades in) */}
                 <div 
                   className="text w-full absolute bottom-4 text-center text-md font-semibold dark:text-gray-300"
-                  /* --- FIX 3: Single style prop  animationDelay  --- */
+                  
                   style={{ 
                     animationDelay: `${index * 0.3 + 1.5}s`,
-                    color: color, // Skill Name-এ dynamic color 
-                    opacity: 0, // Ensure initial opacity is set for animation
+                    color: color,
+                    opacity: 0, 
                   }}
                 >
                   {text}

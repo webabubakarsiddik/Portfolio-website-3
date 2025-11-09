@@ -5,7 +5,7 @@ import { Link } from "react-router";
 function Cive() {
   return (
   
-    <div className="max-w-4xl mx-auto p-6 md:p-10 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl rounded-xl space-y-10 font-sans my-10">
+    <div className="max-w-4xl mt-25 mx-auto p-6 md:p-10 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl rounded-xl space-y-10 font-sans my-10">
       
   
       <Resume/>
